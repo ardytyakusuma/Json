@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Json</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        let perusahaan =
+            `  [
+                {
+                    "nama": "Abadi Jaya",
+                    "alamat": "Kediri",
+                    "telp": 085645855484
+                },
+                {
+                    "nama": "Maju Makmur",
+                    "alamat": "Tulung Agung",
+                    "telp": 085155422192
+                }
+            ]`
+        console.log(JSON.parse(perusahaan))
+    </script>
+</body>
+
+</html>
